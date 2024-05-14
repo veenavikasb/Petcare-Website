@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-Ed">
+    <title>Document</title>
+    </head>
+<body style="background-color: #1488a8;">
+    <form style="color:white;">
+        <fieldset>
+            <legend>Registration Form</legend>
+        <label for="Uname">First name:</label>
+        <input type="text" id="Uname" placeholder="firstname">
+        <label for="Lname">Last name:</label>
+        <input type="text" id="Lname" ><br><br>
+        <label for="mail">Email id:</label>
+        <input type="email" id="mail" ><br><br>
+        <label for="mnum">Mobile Number:</label>
+        <input type="tel" id="mnum" pattern="[0-9]{10}"><br><br>
+        <label for="age">Enter your age:</label>
+        <input type="number" id="age" min="18" max="32" step="2"><br><br>
+        <label for="dob">Enter your DOB:</label>
+        <input type="date" id="dob" min="12/01/1991" max="13/10/2005"><br><br>
+        <label>Select Gender: </label>
+        <input type="radio" name="card">Male
+        <input type="radio" name="card">Female
+        <input type="radio" name="card">Others <br><br>
+        <label>Education</label>
+        <input type="checkbox"> SSC
+        <input type="checkbox"> 12th
+        <input type="checkbox"> Diploma
+        <input type="checkbox"> Graduation
+        <input type="checkbox"> Post Graduation <br><br>
+        <label for="choose">Select Exam Centre </label>
+        <select>
+            <option>Gopalapatnam</option>
+            <option>Andhra Pradesh</option>
+            <option>Telangana</option>
+            <option>Maharashtra</option>
+            <option>Tamilnadu</option>
+            <option>Kerala</option>
+            <option>Karnataka</option>
+            <option>Gujarat</option>
+        </select>
+        <label for="clor">Select Color:</label>
+        <input type="color" id="clor"><br><br>
+        <label for="pwd">Enter Password</label>
+        <input type="password" id="pwd"><br><br>
+        <label for="res">Upload resume:</label>
+        <input type="file" id="res"><br><br>
+        <label for="txt">Write your feed back:</label>
+        <textarea id="txt" rows="5" cols="100"></textarea><br><br>
+        <label for="rn">select price range</label>
+        <input type="range" id="rn" minlength="0" maxlength="1000" >
+        <input type="url"> enter your linkdin url <br><br>
+
+        <input type="submit">
+        <input type="reset">
+        <button>Submit</button>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
